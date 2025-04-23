@@ -1,0 +1,5 @@
+git checkout -b feature/chapter01-session01: tao nhanh feature/chapter01-session01
+git status : kiem tra trang thai cua cac file trong nhanh
+git add hello.txt : them file hello.txt vao nhanh
+git commit -m "add hello.txt" :commit file hello.txt
+git checkout master: quay lai nhanh master
