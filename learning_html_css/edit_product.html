@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit products</title>
+  <style>
+    div{
+      font-size : 25px;
+          display :block;
+          padding: 30px;
+    }
+    .box{
+      display :inline-block;
+    }
+    img{
+      width : 300px;
+      height :300px;
+
+    }
+    label {
+      padding :10px;
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    input,select{
+      margin-top: 30px;
+      padding: 10px;
+      font-size: 20px;
+    }
+    button{
+      font-size: 25px;
+      color :white;
+    }
+    .huy{
+      background-color: gray;
+      margin-right: 10px;
+    }
+    .update
+    {
+      background-color:blue  ;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sửa sản phẩm</h1><br>
+  <div>
+    <labal>Ảnh hiện tại:</labal><br>
+    <img src ="https://ngocnguyen.vn/cdn/images/202304/goods_img/dell-xps-9305-i7-1165g7-ram-8gb-ssd-256gb-133-inch-fhd-P7699-1682414748550.jpg" >
+  </div>
+
+  <div class="box">
+    <labal>Tên sản phẩm:</labal><br>
+    <input type ="text" value="Laptop Dell XPS 13">
+  </div>
+  <div class="box">
+    <labal>Giá(VND):</labal><br>
+    <input type ="text" value="25000000">
+  </div>
+  <div class="box">
+    <labal>Số lượng:</labal><br>
+    <input type ="text" value="10">
+  </div>
+  <div>
+    <labal>Danh mục</labal><br>
+    <select>
+      <option>Laptop</option>
+      <option>Điện thoại</option>
+    </select>
+  </div>
+  <button class="huy">Hủy</button>
+  <button class="update">Cập nhật sản phẩm</button>
+</body>
+</html>

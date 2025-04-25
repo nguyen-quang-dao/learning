@@ -1,0 +1,45 @@
+A.html
+<h1> -> <h6> : thẻ tiêu đề kích cỡ từ lớn đến bé
+<p> : đoạn văn
+<br> : xuống dòng
+<hr> : đường kẻ ngang
+<b> : in đậm
+<i> : in nghêng
+<mark> :tô sáng
+<small> : chữ nhỏ
+<del> : gạch ngang
+<ins> : gạch dưới
+<a href ="link"> :link
+<img src = "link ảnh" alt = "mô tả ảnh">
+<ul type ="circle/disc/square"> : Danh sách không ký tự
+<ol type ="i/1/A" > : Danh sách có thứ tự
+<li> : thành phần trong danh sách
+<dl><dt>mục</dt><dd>định nghĩa</dd></dl> : danh sách tự định nghĩa
+<table> : bảng
+<tr> : hàng
+<td> : cột
+<form> : form nhập liệu
+<input> : ô
+<textarea> : nhập nhiều dòng
+<button> :nút
+<select> <option> : chọn
+<lable> :nhãn
+<div> :khối
+<audio src="audio.mp3"></audio> : âm thanh
+<video src="video.mp4"></video> : video
+
+B.CSS
+color : màu
+background-color : màu nền
+font-size : cỡ chữ
+font- family : phông chữ
+font-weight : độ đậm
+font-style:normal/italic/oblique : kiểu chữ(bình thường/nghiêng)
+text-align:left/right/center : căn lề chữ (trái/phải/giữa)
+width: rộng
+height :cao
+max/min-width : giới hạn 
+margin : khoảng cách ngoài
+padding : khoảng cachs trong
+border : viền
+display : flex/block/inline/ : kiểu hiển thị
